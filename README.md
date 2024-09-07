@@ -1,7 +1,7 @@
 # ThesisCode
 ```{r - formatting clogit}
 #CORRELATIONS FOR ALL CONTINUOUS DATA
-data <- read.csv("/Users/alyxhutcheon/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/correlations5.csv")
+data <- read.csv("/Users/candidate/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/correlations5.csv")
 
 cor_matrix <- cor(data)
 print (cor_matrix)
@@ -23,7 +23,7 @@ library (car)
 library(viridis)
 
 
-adata=read.table(file="/Users/alyxhutcheon/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/retrieval7.csv", header=TRUE, sep=",")
+adata=read.table(file="/Users/candidate/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/retrieval7.csv", header=TRUE, sep=",")
 head(adata)
 
 attach(adata)
@@ -949,7 +949,7 @@ ggsave(histogram_plot16, filename = "HyDogs.png", width = 2000, height = 1000, u
 
 ```{r - severity model}
 #LOGISTIC MIXED EFFECTS MODEL - SEVERITY MODEL
-bdata=read.table(file="/Users/alyxhutcheon/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/retrieval7.csv", header=TRUE, sep=",")
+bdata=read.table(file="/Users/candidate/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/retrieval7.csv", header=TRUE, sep=",")
 head(bdata)
 
 
