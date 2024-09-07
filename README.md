@@ -1,5 +1,13 @@
 # ThesisCode
 ```{r - formatting clogit}
+#CORRELATIONS FOR ALL CONTINUOUS DATA
+data <- read.csv("/Users/alyxhutcheon/Library/CloudStorage/OneDrive-Nexus365/DISS/Data/2. R_CODE/4. Data/retrieval/correlations5.csv")
+
+cor_matrix <- cor(data)
+print (cor_matrix)
+corrplot(cor_matrix, method = "circle")
+
+```{r - formatting clogit}
 #CONDITIONAL LOGISTIC REGRESSION FORMATTING
 library(survival)
 library(ggplot2)
